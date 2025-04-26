@@ -3,25 +3,25 @@ import React from 'react';
 const ArticlesSection = () => {
   const articles = [
     {
-      img: '/assets/image-currency.jpg',
+      img: '../../assets/image-currency.jpg',
       author: 'Claire Robinson',
       title: 'Receive money in any currency with no fees',
       desc: 'The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single...',
     },
     {
-      img: '/assets/image-restaurant.jpg',
+      img: '../../assets/image-restaurant.jpg',
       author: 'Wilson Hutton',
       title: 'Treat yourself without worrying about money',
       desc: 'Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.',
     },
     {
-      img: '/assets/image-plane.jpg',
+      img: '../../assets/image-plane.jpg',
       author: 'Wilson Hutton',
       title: 'Take your Easybank card wherever you go',
       desc: 'We want you to enjoy your travels. That’s why we don’t charge fees on purchases while you’re abroad.',
     },
     {
-      img: '/assets/image-confetti.jpg',
+      img: '../../assets/image-confetti.jpg',
       author: 'Claire Robinson',
       title: 'Our invite-only Beta accounts are now live!',
       desc: 'After lots of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite.',

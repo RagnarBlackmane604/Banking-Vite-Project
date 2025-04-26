@@ -3,22 +3,22 @@ import React from 'react';
 const FeaturesSection = () => {
   const features = [
     {
-      img: '/assets/icon-online.svg',
+      img: '../../assets/icon-online.svg',
       title: 'Online Banking',
       desc: 'Our modern web and mobile applications allow you to keep track of your finances wherever you are.',
     },
     {
-      img: '/assets/icon-budgeting.svg',
+      img: '../../assets/icon-budgeting.svg',
       title: 'Simple Budgeting',
       desc: 'See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.',
     },
     {
-      img: '/assets/icon-onboarding.svg',
+      img: '../../assets/icon-onboarding.svg',
       title: 'Fast Onboarding',
       desc: 'Open your account in minutes online and start taking control of your finances right away.',
     },
     {
-      img: '/assets/icon-api.svg',
+      img: '../../assets/icon-api.svg',
       title: 'Open API',
       desc: 'Manage your savings, investments, pension, and much more from one account.',
     },

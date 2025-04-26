@@ -1,8 +1,8 @@
 import React from 'react';
 
-const mockup = "/assets/image-mockups.png";
-const bgIntroMobile = "/assets/bg-intro-mobile.svg";
-const bgIntroDesktop = "/assets/bg-intro-desktop.svg";
+const mockup = "../../assets/image-mockups.png";
+const bgIntroMobile = "../../assets/bg-intro-mobile.svg";
+const bgIntroDesktop = "../../assets/bg-intro-desktop.svg";
 
 const HeroSection = () => {
   return (

@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div>
-          <img src="/assets/logo.svg" alt="Easybank Logo" className="h-5 md:h-6" />
+          <img src="../../assets/logo.svg" alt="Easybank Logo" className="h-5 md:h-6" />
         </div>
 
         {/* Desktop Menu */}
@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <button>
             <span className="sr-only">Open Menu</span>
-            <img src="/assets/icon-hamburger.svg" alt="Hamburger Icon" className="h-3 md:h-6" />
+            <img src="../../assets/icon-hamburger.svg" alt="Hamburger Icon" className="h-3 md:h-6" />
           </button>
         </div>
       </nav>

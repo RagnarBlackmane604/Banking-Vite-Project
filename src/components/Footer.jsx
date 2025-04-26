@@ -5,13 +5,13 @@ const Footer = () => {
     <footer className="bg-[#2d314d] text-white py-8 px-6 mt-10">
       <div className="flex flex-col md:flex-row justify-between items-center max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-6 mb-6 md:mb-0">
-          <img src="/assets/logo.svg" alt="Logo" className="h-5" />
+          <img src="../../assets/logo.svg" alt="Logo" className="h-5 md:h-6" />
           <div className="flex gap-4">
-            <img src="/assets/icon-facebook.svg" alt="Facebook" />
-            <img src="/assets/icon-youtube.svg" alt="Youtube" />
-            <img src="/assets/icon-twitter.svg" alt="Twitter" />
-            <img src="/assets/icon-pinterest.svg" alt="Pinterest" />
-            <img src="/assets/icon-instagram.svg" alt="Instagram" />
+            <img src="../../assets/icon-facebook.svg" alt="Facebook" />
+            <img src="../../assets/icon-youtube.svg" alt="Youtube" />
+            <img src="../../assets/icon-twitter.svg" alt="Twitter" />
+            <img src="../../assets/icon-pinterest.svg" alt="Pinterest" />
+            <img src="../../assets/icon-instagram.svg" alt="Instagram" />
           </div>
         </div>
 
