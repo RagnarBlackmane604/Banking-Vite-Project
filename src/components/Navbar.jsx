@@ -1,4 +1,5 @@
 import React from "react";
+import RequestButton from "./RequestButton"; 
 
 const Navbar = () => {
   return (
@@ -20,9 +21,7 @@ const Navbar = () => {
 
         {/* Request Button */}
         <div className="hidden md:block">
-          <button className="bg-gradient-to-r from-lime-500 to-cyan-500 text-white px-5 py-2 rounded-full text-sm hover:opacity-90 transition">
-            Request Invite
-          </button>
+          <RequestButton />
         </div>
 
         {/* Mobile Hamburger Menu */}
@@ -38,3 +37,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

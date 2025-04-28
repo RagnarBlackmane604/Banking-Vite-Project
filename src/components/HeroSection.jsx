@@ -1,4 +1,5 @@
 import React from 'react';
+import RequestButton from "./RequestButton";
 
 const mockup = "../../assets/image-mockups.png";
 const bgIntroMobile = "../../assets/bg-intro-mobile.svg";
@@ -38,9 +39,10 @@ const HeroSection = () => {
           Take your financial life online. Your Easybank account will be your one-stop-shop for spending, saving,
           budgeting, investing and much more.
         </p>
-        <button className="mt-8 bg-gradient-to-r from-lime-500 to-cyan-500 text-white px-6 py-3 rounded-full text-sm hover:opacity-90 transition">
-          Request Invite
-        </button>
+        
+        <div className="mt-8">
+          <RequestButton />
+        </div>
       </div>
     </section>
   );

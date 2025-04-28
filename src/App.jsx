@@ -6,7 +6,6 @@ import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import ArticlesSection from './components/ArticlesSection';
 import Footer from './components/Footer';
-import RequestButton from './components/RequestButton'
 
 
 function App() {
@@ -16,9 +15,7 @@ function App() {
       <HeroSection />
       <FeaturesSection />
       <ArticlesSection />
-      <Footer />
-     {/*  <RequestButton /> */}
-    
+      <Footer />    
     </div>
   );
 }
